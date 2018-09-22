@@ -8,6 +8,12 @@ The way to resolve this is to apply the dependency inversion principle, which le
 
 However, it was a bit difficult for me to reason about the diagram abstractly, so I decided to make it concrete with this program.
 
+## Technical Details
+
+The main class is CleanArchitectureDemo. It handles all the dependency injection and starts the controller.
+
+A small test of the interactor is in the `test` directory.
+
 ## License
 
 I am releasing this code into the public domain using [Creative Commons CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/). A copy of the dedication is included at `LICENSE-CC0.txt`.
