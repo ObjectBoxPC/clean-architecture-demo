@@ -1,8 +1,5 @@
 package tk.philipchungtech.cleanarchdemo;
 
-import tk.philipchungtech.cleanarchdemo.AdderResponse;
-import tk.philipchungtech.cleanarchdemo.AdderOutput;
-
 public class TestAdderOutput implements AdderOutput {
 	private AdderResponse _response = null;
 
