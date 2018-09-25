@@ -22,7 +22,7 @@ public class AdderInteractorTest {
 	@Test
 	public void testHandleRequest() {
 		_interactor.handleRequest(new AdderRequest(1, 2));
-		Assert.assertNotNull(_output.getResponse());
-		Assert.assertEquals(3, _output.getResponse().getResult());
+		Assert.assertTrue(_output.responseHandled());
+		Assert.assertEquals(3, _output.getHandledResponse().getResult());
 	}
 }

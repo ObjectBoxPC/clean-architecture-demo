@@ -8,7 +8,14 @@ public class TestAdderOutput implements AdderOutput {
 		_response = response;
 	}
 
-	public AdderResponse getResponse() {
+	public boolean responseHandled() {
+		return _response != null;
+	}
+
+	public AdderResponse getHandledResponse() {
+		if(_response == null) {
+			throw new IllegalStateException("No response was handled");
+		}
 		return _response;
 	}
 }
