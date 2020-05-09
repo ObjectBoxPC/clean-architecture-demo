@@ -1,4 +1,4 @@
-package tk.philipchungtech.cleanarchdemo;
+package name.objectboxpc.cleanarchdemo;
 
 import org.junit.After;
 import org.junit.Before;

@@ -1,4 +1,4 @@
-package tk.philipchungtech.cleanarchdemo;
+package name.objectboxpc.cleanarchdemo;
 
 public class CleanArchitectureDemo {
 	public static void main(String[] args) {

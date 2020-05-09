@@ -1,4 +1,4 @@
-package tk.philipchungtech.cleanarchdemo;
+package name.objectboxpc.cleanarchdemo;
 
 public class AdderResponse {
 	private final int _result;

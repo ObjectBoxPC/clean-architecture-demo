@@ -1,4 +1,4 @@
-package tk.philipchungtech.cleanarchdemo;
+package name.objectboxpc.cleanarchdemo;
 
 public class TestAdderOutput implements AdderOutput {
 	private AdderResponse _response = null;
