@@ -1,6 +1,6 @@
 # Clean Architecture Demo
 
-This is a simple demonstration of the [Clean Architecture](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html).
+This is a simple demonstration of the [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html).
 
 One of the primary principles of this architecture is that source code (classes here) should depend only on more abstract code. However, the flow of control goes from concrete input to abstract processing to concrete output.
 
