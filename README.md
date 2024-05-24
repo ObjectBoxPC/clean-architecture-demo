@@ -4,7 +4,7 @@ This is a simple demonstration of the [Clean Architecture](https://blog.cleancod
 
 One of the primary principles of this architecture is that source code (classes here) should depend only on more abstract code. However, the flow of control goes from concrete input to abstract processing to concrete output.
 
-The way to resolve this is to apply the dependency inversion principle, which leads to the UML diagram in the bottom-left corner of the first picture.
+The way to resolve this is to apply the dependency inversion principle, which leads to the UML diagram in the bottom-right corner of the first picture.
 
 However, it was a bit difficult for me to reason about the diagram abstractly, so I decided to make it concrete with this program.
 
